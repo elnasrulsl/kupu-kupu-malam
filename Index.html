@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f2027;
+            background: linear-gradient(to right, #203a43, #2c5364);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        nav h2 {
+            color: #00d4ff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00d4ff;
+        }
+
+        section {
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        .home img {
+            width: 170px;
+            height: 200px;
+            border-radius: 20%;
+            margin-bottom: 20px;
+            border: 4px solid #00d4ff;
+        }
+
+        .home h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .home p {
+            font-size: 18px;
+            color: #ccc;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #00d4ff;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 600px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.3);
+            margin-top: 50px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Portfolio</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#CV">CV</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="home">
+        <img src="HELIA NASRUL.JPG" alt="Foto Profil">
+        <h1>Helia Nasrul</h1>
+        <p>Pelajar | SMAN 1 JASINGA | Influencer</p>
+        <a href="#kontak" class="btn">Hubungi Saya</a>
+    </section>
+
+    <!-- Tentang -->
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <div class="card">
+            <p>
+               Saya adalah pelajar yang mencintai Sastra  Indonesia, tempat di mana kata-kata hidup dan perasaan menemukan maknanya. Bagi saya, puisi bukan sekadar rangkaian kalimat, melainkan suara hati yang dituangkan dalam keindahan bahasa.
+                Saya percaya bahwa setiap bait memiliki kekuatan untuk menyentuh, menginspirasi, dan mengubah cara pandang seseorang.
+            </p>
+        </div>
+    </section>
+    
+    <!-- CV -->
+    <section id="CV">
+        <h2>CV</h2>
+        <div class="card">
+            <p>
+              <img src="CV.PNG" alt="Foto cv"width="225px"height="300px">
+            
+            </p>
+        </div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skill">
+        <h2>Keahlian</h2>
+        <div class="card">
+            <p>✔ HTML</p>
+            <p>✔ Excel</p>
+            <p>✔ Menata motor</p>
+            <p>✔ Mengatur lalu lintas</p>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <div class="card">
+            <p>Email: nasrulhelia372@gmail.com</p>
+            <p>WhatsApp: 085773441667</p>
+            <p>Instagram: @elnasrul13_</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Helia Nasrul </p>
+    </footer>
+<head>
+  <title>Portfolio Nasrul</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+
+</body>
+</html>
